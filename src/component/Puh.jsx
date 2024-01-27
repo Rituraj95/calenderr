@@ -5,44 +5,39 @@ export default function Calneder1() {
 
   const customDays = [
     { day: '', content: '', color: 'white' },
-    { day: '', content: '', color: 'white' },
-    { day: '', content: '', color: 'white' },
-    { day: '', content: '', color: 'white' },
-    { day: '', content: '', color: 'white' },
-    { day: '', content: '', color: 'white' },
+    
 
-    { day: '১', content: '15 april', color: 'white' },
-    { day: '২', content: 'april 16', color: 'white' },
-    { day: '৩', content: 'april 17', color: 'white' },
+    { day: '১', content: 'Dec 18', color: 'white' },
+    { day: '২', content: 'Dec 19', color: 'white' },
+    { day: '৩', content: 'Dec 20', color: 'white' },
 
-    { day: '৪', content: 'april 18', color: 'white' },
-    { day: '৫', content: 'april 19', color: 'white' },
-    { day: '৬', content: 'april 20', color: 'white' },
-    { day: '৭', content: 'april 21', color: 'white' },
-    { day: '৮', content: 'april 22', color: 'white' },
-    { day: '৯', content: 'april 23', color: 'white' },
-    { day: '১০', content: 'april 24', color: 'white' },
-    { day: '১১', content: 'april 25', color: 'white' },
-    { day: '১২', content: 'april 26', color: 'white' },
-    { day: '১৩', content: 'april 27', color: 'white' },
-    { day: '১৪', content: 'april 28', color: 'white' },
-    { day: '১৫', content: 'april 29', color: 'white' },
-    { day: '১৬', content: 'april 30', color: 'white' },
-    { day: '১৭', content: 'may 1 ', color: 'white' },
-    { day: '১৮', content: 'may 2', color: 'white' },
-    { day: '১৯', content: 'may 3', color: 'white' },
-    { day: '২০', content: 'may 4', color: 'white' },
-    { day: '২১', content: 'may 5', color: 'white' },
-    { day: '২২', content: 'may 6', color: 'white' },
-    { day: '২৩', content: 'may 7', color: 'white' },
-    { day: '২৪', content: 'may 8', color: 'white' },
-    { day: '২৫', content: 'may 9', color: 'white' },
-    { day: '২৬', content: 'may 10', color: 'white' },
-    { day: '২৭', content: 'may 11', color: 'white' },
-    { day: '২৮', content: 'may 12', color: 'white' },
-    { day: '২৯', content: 'may 13', color: 'white' },
-    { day: '৩০', content: 'may 14', color: 'white' },
-    { day: '৩১', content: 'may 15', color: 'white' },
+    { day: '৪', content: 'Dec 21 ', color: 'white' },
+    { day: '৫', content: 'Dec 22', color: 'white' },
+    { day: '৬', content: 'Dec 23', color: 'white' },
+    { day: '৭', content: 'Dec 24', color: 'red' },
+    { day: '৮', content: 'Dec 25', color: 'white' },
+    { day: '৯', content: 'Dec 26', color: 'white' },
+    { day: '১০', content: 'Dec 27', color: 'white' },
+    { day: '১১', content: 'Dec 28', color: 'white' },
+    { day: '১২', content: 'Dec 29', color: 'white' },
+    { day: '১৩', content: 'Dec 30', color: 'white' },
+    { day: '১৪', content: 'Dec 31', color: 'red' },
+    { day: '১৫', content: 'jan 1', color: 'white' },
+    { day: '১৬', content: 'jan 2', color: 'white' },
+    { day: '১৭', content: 'Jan 3 ', color: 'white' },
+    { day: '১৮', content: 'Jan 4', color: 'white' },
+    { day: '১৯', content: 'Jan 5', color: 'white' },
+    { day: '২০', content: 'Jan 6', color: 'white' },
+    { day: '২১', content: 'Jan 7', color: 'red' },
+    { day: '২২', content: 'Jan 8', color: 'white' },
+    { day: '২৩', content: 'Jan 9', color: 'white' },
+    { day: '২৪', content: 'Jan 10', color: 'white' },
+    { day: '২৫', content: 'Jan 11', color: 'white' },
+    { day: '২৬', content: 'Jan 12', color: 'white' },
+    { day: '২৭', content: 'Jan 13', color: 'white' },
+    { day: '২৮', content: 'Jan 14', color: 'red' },
+    { day: '২৯', content: 'Jan 15', color: 'white' },
+    
 
 
     // ... Add more days as needed
@@ -51,12 +46,16 @@ export default function Calneder1() {
     <div>
        <div>
      
-
-     <div className="month">
+       <div className="month"
+    style={{
+    backgroundImage: `url(${require('./Asset/handloom.jpg')})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  }}>
        <ul>
         
          <li>
-           বহাগ (April-May)<br />
+         পুহ (Dec-Jan)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>
@@ -84,7 +83,7 @@ export default function Calneder1() {
      </ul>
    </div>
        
-    <ul>
+    <ul className='content'>
         <li>
         ১-হালধীআটী সত্রত দীপুকান্ত গোস্বামী, কৰতিপাৰা সত্ৰত বিশ্বেশ্বৰ গোস্বামী, কুবালগুৰীত মুকলিমুৰীষা গোস্বামী কৃষ্ণচন্দ্র গোস্বামী, নগাঁও মাজজাজবি শ্রীশ্রী বাঘমবা বজালবাৰি সত্ৰৰ ডেকা সত্ৰাধিকাৰ ৰত্নেশ্বৰ গোস্বামী আৰু মাজজাজৰি মাজুভাগ আহঁতগুবি সত্রৰ ডেকা সত্রীয়া সদানন্দ গোস্বামীৰ তিঃতিঃ। ২-পূৰণীগুদাম লেটুগ্রাম সত্ৰত সত্ৰাধিকাৰ মুক্তিচন্দ্র মহন্ত, বৰঙাবাৰীত তোষণ মহন্তৰ তিঃতিঃ। আজিৰ পৰা ২ জানুৱাৰীলৈ অসমীয়া জাতীয় জীবন সংগঠন পষেক পালন। জাতীয় চেতনা দিবস।৩-অভয়াপুৰীৰ কনক চন্দ্ৰ শৰ্ম্মা, শুকদ'ল সকবৰী শলগুৰী সত্ৰত সত্ৰাধিকাৰ মহীকান্ত মহন্ত আৰু চকলাঘাট খৌবামোচৰ সত্রৰ যোগমায়া গোস্বামীৰ তিঃতিঃ ।৪-কাংসপাৰ সত্ৰত সুন্দৰ কানু দেবৰ তিঃতিঃ। গোৱালপাৰা গোবিন্দপুৰত হাছানীয়া খানকাহ শ্বৰীফত ঔৰচ শ্বৰীফ।৬-ভোগপুৰ সন্ত্রত বিষ্ণুদেব গোস্বামী, মৰিয়নী ভেলেগুৰী উলুতলী সরত হেমকান্ত মহন্তৰ তিঃতিঃ।৭-হাতীচোং শুকদচল শলগুৰী সত্ৰত কেশবকান্ত অধিকাৰ আৰু গণকপুখুৰী লেটুগ্রাম সত্ৰাধিকাৰ দেবকান্ত মহন্তৰ তিঃতিঃ ।৮-
 

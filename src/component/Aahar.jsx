@@ -11,38 +11,38 @@ export default function Calneder1() {
     { day: '', content: '', color: 'white' },
     { day: '', content: '', color: 'white' },
 
-    { day: '১', content: '15 april', color: 'white' },
-    { day: '২', content: 'april 16', color: 'white' },
-    { day: '৩', content: 'april 17', color: 'white' },
+    { day: '১', content: 'august 19', color: 'white' },
+    { day: '২', content: 'august 20', color: 'red' },
+    { day: '৩', content: 'august 21', color: 'white' },
 
-    { day: '৪', content: 'april 18', color: 'white' },
-    { day: '৫', content: 'april 19', color: 'white' },
-    { day: '৬', content: 'april 20', color: 'white' },
-    { day: '৭', content: 'april 21', color: 'white' },
-    { day: '৮', content: 'april 22', color: 'white' },
-    { day: '৯', content: 'april 23', color: 'white' },
-    { day: '১০', content: 'april 24', color: 'white' },
-    { day: '১১', content: 'april 25', color: 'white' },
-    { day: '১২', content: 'april 26', color: 'white' },
-    { day: '১৩', content: 'april 27', color: 'white' },
-    { day: '১৪', content: 'april 28', color: 'white' },
-    { day: '১৫', content: 'april 29', color: 'white' },
-    { day: '১৬', content: 'april 30', color: 'white' },
-    { day: '১৭', content: 'may 1 ', color: 'white' },
-    { day: '১৮', content: 'may 2', color: 'white' },
-    { day: '১৯', content: 'may 3', color: 'white' },
-    { day: '২০', content: 'may 4', color: 'white' },
-    { day: '২১', content: 'may 5', color: 'white' },
-    { day: '২২', content: 'may 6', color: 'white' },
-    { day: '২৩', content: 'may 7', color: 'white' },
-    { day: '২৪', content: 'may 8', color: 'white' },
-    { day: '২৫', content: 'may 9', color: 'white' },
-    { day: '২৬', content: 'may 10', color: 'white' },
-    { day: '২৭', content: 'may 11', color: 'white' },
-    { day: '২৮', content: 'may 12', color: 'white' },
-    { day: '২৯', content: 'may 13', color: 'white' },
-    { day: '৩০', content: 'may 14', color: 'white' },
-    { day: '৩১', content: 'may 15', color: 'white' },
+    { day: '৪', content: 'august 22', color: 'white' },
+    { day: '৫', content: 'august 23', color: 'white' },
+    { day: '৬', content: 'august 24', color: 'white' },
+    { day: '৭', content: 'august 25', color: 'white' },
+    { day: '৮', content: 'august 26', color: 'white' },
+    { day: '৯', content: 'august 27', color: 'red' },
+    { day: '১০', content: 'august 28', color: 'white' },
+    { day: '১১', content: 'august 29', color: 'white' },
+    { day: '১২', content: 'august 30', color: 'white' },
+    { day: '১৩', content: 'august 31', color: 'white' },
+    { day: '১৪', content: 'sept 1', color: 'white' },
+    { day: '১৫', content: 'sept 2', color: 'white' },
+    { day: '১৬', content: 'sept 3', color: 'red' },
+    { day: '১৭', content: 'sept 4 ', color: 'white' },
+    { day: '১৮', content: 'sept 5', color: 'white' },
+    { day: '১৯', content: 'sept 6', color: 'white' },
+    { day: '২০', content: 'sept 7', color: 'white' },
+    { day: '২১', content: 'sept 8', color: 'white' },
+    { day: '২২', content: 'sept 9', color: 'white' },
+    { day: '২৩', content: 'sept 10', color: 'red' },
+    { day: '২৪', content: 'sept 11', color: 'white' },
+    { day: '২৫', content: 'sept 12', color: 'white' },
+    { day: '২৬', content: 'sept 13', color: 'white' },
+    { day: '২৭', content: 'sept 14', color: 'white' },
+    { day: '২৮', content: 'sept 15', color: 'white' },
+    { day: '২৯', content: 'sept 16', color: 'white' },
+    { day: '৩০', content: 'sept 17', color: 'red' },
+    { day: '৩১', content: 'august 18', color: 'white' },
 
 
     // ... Add more days as needed
@@ -51,11 +51,17 @@ export default function Calneder1() {
   return (
  <>
 
-        <div className="month">
+<div className="month"
+    style={{
+    backgroundImage: `url(${require('./Asset/saraighat.jpg')})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  }}>
+
        <ul>
        
          <li>
-           Aahar (April-May)<br />
+         আহাৰ (august-sept)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>
@@ -85,7 +91,7 @@ export default function Calneder1() {
 
 
 
-    <ul>
+    <ul className='content'>
       <li>
 ১-নৱমাটি কাটনীপাৰ সত্ৰত যুগলনাথ আৰু চিদানন্দ দেৱৰ তিঃতিঃ।
  
